@@ -1,0 +1,132 @@
+
+/* fonts */
+@import url(https://fonts.googleapis.com/css?family=League+Script);
+@import url(https://fonts.googleapis.com/css?family=Herr+Von+Muellerhoff);
+@import url(https://fonts.googleapis.com/css?family=Condiment);
+@import url(https://fonts.googleapis.com/css?family=Poiret+One);
+
+
+.League{
+    font-family: League Script;
+}
+.Herr{
+    font-family: Herr Von Muellerhoff;
+}
+.Condiment{
+    font-family: Condiment;
+}
+.Poiret{
+	font-family: Poiret One;
+}
+
+
+	
+
+/* unvisited link */
+a:link {
+    color:#c1c1c1;
+	background-color: transparent;
+    text-decoration: none;
+	font-size: 20px;
+	font-family: "Poiret" One, Poiret;
+	
+}
+
+/* visited link */
+a:visited {
+    color: #c1c1c1;
+    background-color: transparent;
+    text-decoration: none;
+
+	}
+
+/* mouse over link */
+a:hover {
+    color: #000000;
+    background-color: transparent;
+    text-decoration:  none;
+	font-family: "Poiret" One, Poiret;
+}
+
+/* selected link */
+a:active {
+    color: #000000; 
+	background-color: transparent;
+    text-decoration: none;
+	font-family: "Poiret" One, Poiret;
+}
+
+
+
+/*links sections*/
+section {
+  float: left;
+  margin: 0 1.5%;
+  width: 30%;
+}
+#footer {
+	float: right;
+	color:#E6E6E6;
+}
+background {
+    background-color:rgba(0, 0, 0, 0.65);
+    width: 1250px;
+    padding: 25px;
+    border: 2px solid #E6E6E6;
+    
+	margin-top: auto;
+    margin-bottom: 5.0em;
+    margin-left: auto;
+    margin-right: auto;
+	
+}
+.paragraph {
+	width: 1150px;
+	margin-left: auto;
+    margin-right: auto;
+}
+.box{
+    background-color:transparent;
+    width: 1250px;
+    padding: 25px;
+    border: 2.5px solid #E6E6E6;
+    
+	margin-top: 2.0em;
+    margin-bottom: 5.0em;
+    margin-left: auto;
+    margin-right: auto;
+}
+.p {
+	font-family: League;
+	font-size: 20px;
+	font-style: italic;
+}
+
+.border {
+	border-left: 175px;
+	border-right: 175px;
+	border-bottom:
+}
+
+
+.image{ 
+	float: right;
+	width: 350px;
+	height: 250px;
+}
+
+iframe { display:all;
+background:black;
+padding-left: 175px;
+padding-right: 175px;
+padding-top: 5px;
+padding-bottom: 5px;
+ }
+
+ /* to fit on multible browsers */
+.grad {
+  background: -webkit-linear-gradient(green, blue); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(green, blue); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(green, blue); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(green, blue); /* Standard syntax */
+}
